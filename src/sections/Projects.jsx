@@ -2,9 +2,7 @@ import useScrollAnimation from "../hooks/useScrollAnimation";
 import { FaPlay, FaCode } from "react-icons/fa";
 
 import faceImg from "../assets/face.png";
-import petImg from "../assets/pet.png";
 import plagImg from "../assets/plag.png";
-import ruralImg from "../assets/rural_dev.svg";
 
 // Enhanced project data with impact + features
 const projectsData = [
@@ -23,20 +21,6 @@ const projectsData = [
     demo: "https://iprashanthvanam.pythonanywhere.com/",
   },
   {
-    title: "The Pet Portal",
-    image: petImg,
-    impact: "Connecting 100+ shelters with adopters",
-    desc: "A full-stack web platform that bridges animal shelters with potential adopters, featuring profiles, search, and matching.",
-    features: [
-      "Pet search with breed & location filters",
-      "User & shelter profile management",
-      "Responsive UI built with Django templates",
-    ],
-    tech: ["Python", "Django", "SQLite"],
-    github: "https://github.com/iprashanthvanam/the_pet_portal",
-    demo: "https://thepetportal.pythonanywhere.com/",
-  },
-  {
     title: "Plagiarism Analysis Application",
     image: plagImg,
     impact: "Detection accuracy improved by ~30% over baseline",
@@ -49,20 +33,6 @@ const projectsData = [
     tech: ["Python", "React", "Node.js"],
     github: "https://github.com/iprashanthvanam/Plagiarism_AI_detection_app",
     demo: "https://plagiarismanalyser-d8a6d0f9f2deczhn.southindia-01.azurewebsites.net/",
-  },
-  {
-    title: "Rural Development Recommendation System",
-    image: ruralImg,
-    impact: "AI-powered planning tool for 500k+ Indian villages",
-    desc: "A Django web app where village officials enter data and instantly receive AI recommendations, GIS maps, analytics charts, and a formatted PDF report — all server-generated in one submission.",
-    features: [
-      "Rule-based AI engine across 9+ dev categories",
-      "GeoPandas GIS map with emoji-annotated infrastructure",
-      "ReportLab multi-page landscape PDF for district authorities",
-    ],
-    tech: ["Django", "GeoPandas", "ReportLab", "Matplotlib"],
-    github: "https://github.com/iprashanthvanam/rural_dev_web",
-    demo: "https://rural-dev-web-rai3.onrender.com",
   },
 ];
 

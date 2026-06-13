@@ -3,7 +3,7 @@ import profile from "../assets/profile.jpeg";
 
 // Typing animation lines for the terminal
 const TERMINAL_LINES = [
-  { cmd: "whoami", output: "V Prashanth — Software Developer" },
+  { cmd: "whoami", output: "P.Sairam — Software Developer" },
   // { cmd: "skills --top", output: "React · Python · Flask · Django · SQL" },
   { cmd: "status", output: "Open to internships & entry-level roles" },
   { cmd: "location", output: "Hyderabad, India 🇮🇳" },
@@ -23,10 +23,10 @@ export default function Hero() {
   }, [visibleLines]);
 
   const handleDownloadCV = () => {
-    const cvUrl = "/VANAM PRASHANTH SDE.pdf";
+    const cvUrl = "/Sairamreddy_Resume.docs";
     const link = document.createElement("a");
     link.href = cvUrl;
-    link.download = "VANAM PRASHANTH SDE.pdf";
+    link.download = "Sairamreddy_Resume.docs";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -42,7 +42,7 @@ export default function Hero() {
       {/* LEFT — Photo */}
       <div className="hero-right">
         <div className="hero-img-wrapper">
-          <img src={profile} alt="V Prashanth" />
+          <img src={profile} alt="P.Sairam" />
         </div>
       </div>
 
@@ -51,9 +51,9 @@ export default function Hero() {
 
         <p className="hero-tag">Software Developer · Fresher</p>
 
-        <h1 className="hero-name">V Prashanth</h1>
+        <h1 className="hero-name">P.Sairam</h1>
 
-        <p className="hero-role">Full Stack · React · NodeJS · FastAPI · Java · SpringBoot</p>
+        <p className="hero-role">Web Development · NodeJS · FastAPI · Java · SpringBoot</p>
 
         <p className="hero-desc">
           Entry-level Software Developer focused on building scalable web
@@ -87,7 +87,7 @@ export default function Hero() {
 
         <div className="hero-socials">
           <a
-            href="https://www.linkedin.com/in/iprashanthvanam/"
+            href="https://www.linkedin.com/in/pb-sairam-reddy-6426b536a/"
             target="_blank"
             rel="noopener noreferrer"
             title="LinkedIn"
@@ -95,7 +95,7 @@ export default function Hero() {
             <img src="/linkedin.svg" alt="LinkedIn" />
           </a>
           <a
-            href="https://github.com/iprashanthvanam/"
+            href="https://github.com/sairam0512"
             target="_blank"
             rel="noopener noreferrer"
             title="GitHub"
@@ -103,7 +103,7 @@ export default function Hero() {
             <img src="/github.svg" alt="GitHub" />
           </a>
           <a
-            href="https://leetcode.com/u/iprashanthvanam/"
+            href="https://leetcode.com/u/Sairam_2210/"
             target="_blank"
             rel="noopener noreferrer"
             title="LeetCode"

@@ -11,14 +11,10 @@ export const skills = [
   "Python",
   "HTML5",
   "CSS",
-  "Tailwind CSS",
-  "Java Script",
+  "javascript",
   "Mysql",
   "Postgresql",
   "Git",
-  "AWS",
-  "MS Office",
-  "Mongo DB",
-  "Flask",
-  "Django"
+  "AWS(Normal)",
+  "MS Office"
 ];

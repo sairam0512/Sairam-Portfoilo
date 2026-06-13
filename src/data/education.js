@@ -9,13 +9,13 @@ export const education = [
     place: "Teegala Krishna Reddy Engineering College"
   },
   {
-    year: "2016 - 2019",
+    year: "2020 - 2023",
     title: "Diploma",
-    place: "Government model residential polytechnic"
+    place: "TRR Institute of POltechnic"
   },
   {
-    year: "2017 - 2020",
+    year: "2018 - 2020",
     title: "Secondary Education",
-    place: "Zilla Parishad Boys High School"
+    place: "KVM High School"
   }
 ];

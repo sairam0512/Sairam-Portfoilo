@@ -13,7 +13,7 @@ export default function Navbar() {
       <nav className="navbar">
         {/* Brand — monospace tag style */}
         <span className="navbar-brand">
-          <span>{"<"}</span>VANAM PRASHANTH<span>{"/>"}</span>
+          <span>{"<"}</span>P.Sairam<span>{"/>"}</span>
         </span>
 
         {/* Hamburger with animated bars */}

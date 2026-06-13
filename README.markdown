@@ -127,7 +127,7 @@ A complete visual walkthrough of every section in the portfolio.
 <div align="center">
   <img src="images/projects.png" alt="Projects Section" width="860"/>
   <br/><br/>
-  <sub><b>Projects showcase.</b> Three project cards — Face Recognition System, The Pet Portal, and Plagiarism Analysis Application — each with a project image, description, tech stack tags, and dual action buttons (GitHub repo link + Live Demo link). Data sourced from <code>projects.js</code>.</sub>
+  <sub><b>Projects showcase.</b> Three project cards — Face Recognition System and Plagiarism Analysis Application — each with a project image, description, tech stack tags, and dual action buttons (GitHub repo link + Live Demo link). Data sourced from <code>projects.js</code>.</sub>
 </div>
 
 ---
@@ -137,7 +137,7 @@ A complete visual walkthrough of every section in the portfolio.
 <div align="center">
   <img src="images/achievements.png" alt="Achievements Section" width="860"/>
   <br/><br/>
-  <sub><b>Achievements & certifications.</b> Three certification cards — ServiceNow System Administrator (July 2025), Oracle Data Platform 2025 Foundations Associate (July 2025 – July 2027), and Oracle Cloud Infrastructure 2025 Foundations Associate (Aug 2025 – Aug 2027) — each with org logo, date range, category badge, and a Verify external link.</sub>
+  <sub><b>Achievements & certifications. Four certification cards — Introduction to Generative AI Studio by Google Cloud / Simplilearn (September 30, 2025), Edunet - SkillsBuild Orientation by IBM SkillsBuild (October 29, 2025), Programming In Java (Elite) by NPTEL - IIT Kharagpur (Jul-Oct 2025), and Salesforce Certified Agentforce Specialist by Salesforce (December 26, 2025) — each with org logo, date, category badge, and a Verify external link.</sub>
 </div>
 
 ---
@@ -337,15 +337,13 @@ prashanth-portfolio/
 │   ├── linkedin.svg                      # Custom LinkedIn icon
 │   ├── leetcode.svg                      # Custom LeetCode icon
 │   ├── vite.svg
-│   └── VANAM PRASHANTH SDE.pdf           # Downloadable CV
+│   └── Sairamreddy_Resume.pdf           # Downloadable CV
 │
 ├── src/
 │   ├── assets/
 │   │   ├── face.png                      # Face Recognition project image
-│   │   ├── pet.png                       # The Pet Portal project image
 │   │   ├── plag.png                      # Plagiarism App project image
-│   │   ├── profile.jpeg                  # Hero profile photo
-│   │   └── rural_dev.svg                 # Rural Dev SVG illustration
+│   │   ├── profile.jpeg                  # Hero profile photo        
 │   │
 │   ├── components/
 │   │   ├── Navbar.jsx                    # Sticky navbar with hamburger + links
@@ -579,23 +577,23 @@ You are free to use this portfolio as a template — just swap out the personal 
 
 <div align="center">
 
-### Prashanth Vanam
+### P.Sairam
 
 <p>
-  <a href="mailto:prashanthvanamnetha@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-prashanthvanamnetha%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <a href="mailto:psairam1022@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-psairam1022@gmail.com%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/iprashanthvanam/">
-    <img src="https://img.shields.io/badge/LinkedIn-iprashanthvanam-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <a href="https://www.linkedin.com/in/pb-sairam-reddy-6426b536a/">
+    <img src="https://img.shields.io/badge/LinkedIn-pb-sairam-reddy-6426b536a/-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="https://github.com/iprashanthvanam">
-    <img src="https://img.shields.io/badge/GitHub-iprashanthvanam-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  <a href="https://github.com/sairam0512">
+    <img src="https://img.shields.io/badge/GitHub-sairam0512-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="https://leetcode.com/u/iprashanthvanam/">
-    <img src="https://img.shields.io/badge/LeetCode-iprashanthvanam-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
+  <a href="https://leetcode.com/u/Sairam_2210/">
+    <img src="https://img.shields.io/badge/LeetCode-Sairam_2210/-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
   </a>
 </p>
 
@@ -611,20 +609,14 @@ You are free to use this portfolio as a template — just swap out the personal 
 
 | | |
 |---|---|
-| 📧 **Email** | [prashanthvanamnetha@gmail.com](mailto:prashanthvanamnetha@gmail.com) |
-| 💼 **LinkedIn** | [linkedin.com/in/iprashanthvanam](https://www.linkedin.com/in/iprashanthvanam/) |
-| 🐙 **GitHub** | [github.com/iprashanthvanam](https://github.com/iprashanthvanam) |
-| 💡 **LeetCode** | [leetcode.com/u/iprashanthvanam](https://leetcode.com/u/iprashanthvanam/) |
-| 📍 **Location** | LB Nagar, Hyderabad, Telangana, India |
-| 📞 **Mobile** | +91 703 6142 499 |
+| 📧 **Email** | [psairam1022@gmail.com](mailto:prashanthvanamnetha@gmail.com) |
+| 💼 **LinkedIn** | [www.linkedin.com/in/pb-sairam-reddy-6426b536a/](https://www.linkedin.com/in/pb-sairam-reddy-6426b536a/) |
+| 🐙 **GitHub** | [github.com/sairam0512](https://github.com/sairam0512) |
+| 💡 **LeetCode** | [leetcode.com/u/Sairam_2210/](https://leetcode.com/u/Sairam_2210/) |
+| 📍 **Location** | TKR Clg ,LB Nagar, Hyderabad, Telangana, India |
+| 📞 **Mobile** | +91 9701278324 |
 
 <br/>
-
-> 💬 Feel free to reach out for collaborations, job opportunities, or just to say hi!
-
-**Project Link:** [https://github.com/iprashanthvanam/prashanth-portfolio](https://github.com/iprashanthvanam/prashanth-portfolio)
-
-**Live Portfolio:** [https://prashanth-portfolio-phi.vercel.app/](https://prashanth-portfolio-phi.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -632,7 +624,7 @@ You are free to use this portfolio as a template — just swap out the personal 
 
 <div align="center">
 
-Built with ❤️ by V Prashanth
+Built with ❤️ by P.Sairam
 
 ⭐ Star this repo if you found it useful as a portfolio template!
 

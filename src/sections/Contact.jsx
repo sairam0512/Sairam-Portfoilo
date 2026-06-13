@@ -186,29 +186,29 @@ export default function Contact() {
               <div className="icon-circle">
                 <FaEnvelope />
               </div>
-              <p>prashanthvanamnetha@gmail.com</p>
+              <p>psairam1022@gmail.com</p>
             </div>
 
             <div className="contact-item">
               <div className="icon-circle">
                 <FaPhoneAlt />
               </div>
-              <p>+91 7036142499</p>
+              <p>+91 9701278324</p>
             </div>
 
             <div className="contact-item">
               <div className="icon-circle">
                 <FaMapMarkerAlt />
               </div>
-              <p>LB Nagar, Hyderabad</p>
+              <p>TKR Clg, LB Nagar, Hyderabad</p>
             </div>
           </div>
 
           {/* Social Icons Row */}
           <div className="social-links-row">
-             <a href="https://github.com/iprashanthvanam" target="_blank" rel="noopener noreferrer" className="social-circle"><FaGithub /></a>
-             <a href="https://www.linkedin.com/in/iprashanthvanam/" target="_blank" rel="noopener noreferrer" className="social-circle"><FaLinkedinIn /></a>
-             <a href="https://leetcode.com/u/iprashanthvanam/" target="_blank" rel="noopener noreferrer" className="social-circle"><FaCode /></a> 
+             <a href="https://github.com/sairam0512" target="_blank" rel="noopener noreferrer" className="social-circle"><FaGithub /></a>
+             <a href="https://www.linkedin.com/in/pb-sairam-reddy-6426b536a/_blank" rel="noopener noreferrer" className="social-circle"><FaLinkedinIn /></a>
+             <a href="https://leetcode.com/u/Sairam_2210/" target="_blank" rel="noopener noreferrer" className="social-circle"><FaCode /></a> 
           </div>
 
         </div>
@@ -216,7 +216,7 @@ export default function Contact() {
 
       {/* Footer / Copyright */}
       <div className="footer-copyright">
-        <p>Made with ❤️ by V Prashanth</p>
+        <p>Made with ❤️ by P.Sairam</p>
       </div>
     </section>
   );
