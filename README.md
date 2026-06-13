@@ -80,7 +80,7 @@ This ensures:
 
 Clone the Repository
 ```
-git clone https://github.com/iprashanthvanam/prashanth-portfolio.git
+git clone  https://github.com/Ravi74364/sairam-portfolio.git 
 ```
 ```
 cd prashanth-portfolio
