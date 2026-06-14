@@ -14,7 +14,7 @@
 
 <div align="center">
 
-# Vanam Prashanth — Developer Portfolio
+# P.B.Sairamreddy — Developer Portfolio
 ### Personal Portfolio Website | React 19 + Vite 7 + IDE-Inspired Dark UI
 
 *A blazing-fast, data-driven personal portfolio built with React 19 and Vite — featuring a VS Code Dark+ inspired design system, animated terminal hero, scroll-reveal animations, and a live Web3Forms contact form.*
@@ -306,7 +306,7 @@ export const education = [
 ### `src/data/experience.js`
 ```js
 export const experience = [
-  { period: "11/2018 – 05/2019", role: "Testing Intern", company: "ETDC (STQC Lab, NABL)" },
+  { period: "06/2022 – 11/2022", role: "Intern", company: "RKG Technologies" },
   // Add more roles here
 ];
 ```
@@ -321,7 +321,7 @@ Achievements are defined inline as an array. To add a new certification, append 
 ## Project Structure
 
 ```
-prashanth-portfolio/
+Sairam-portfolio/
 │
 ├── images/                               # 📸 Portfolio screenshots (README images)
 │   ├── hero section.png
@@ -396,7 +396,7 @@ prashanth-portfolio/
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/iprashanthvanam/prashanth-portfolio.git
+git clone https://github.com/sairam0512/Sairam-Portfolio.git
 cd prashanth-portfolio
 ```
 
@@ -480,7 +480,7 @@ export const skills = [
 
 ### Replace the CV
 
-Replace `public/VANAM PRASHANTH SDE.pdf` with your updated PDF, then update the reference in `src/sections/Hero.jsx`:
+Replace `public/Sairamreddy_Resume.docs` with your updated DOCS, then update the reference in `src/sections/Hero.jsx`:
 
 ```jsx
 const cvUrl = "/YOUR_CV_FILENAME.pdf";
@@ -502,8 +502,6 @@ Get a free key at [web3forms.com](https://web3forms.com) — no backend required
 ---
 
 ## Deployment (Vercel)
-
-The portfolio is live at **[https://prashanth-portfolio-phi.vercel.app/](https://prashanth-portfolio-phi.vercel.app/)**
 
 ### Deploy in 3 Steps
 
