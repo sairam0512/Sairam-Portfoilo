@@ -1,7 +1,6 @@
 import useScrollAnimation from "../hooks/useScrollAnimation";
 import { FaFolder, FaExternalLinkAlt } from "react-icons/fa";
 
-// FIXED: removed duplicates, kept only 3 strong certs
 const achievementsData = [
   {
     title: "Introduction to Generative AI Studio",
@@ -48,40 +47,42 @@ export default function Achievements() {
     <section id="achievements" ref={ref} className="animate">
       <h2 className="section-title">Achievements</h2>
 
-      <div className="achievements-container">
+      <div className="achievements-grid">
         {achievementsData.map((item, index) => (
-          <div className="achievement-card" key={index}>
-
-            <div className="achievement-content">
-              <h3>{item.title}</h3>
-              <p className="achievement-org">{item.org}</p>
-
-              <div className="achievement-meta">
-                <span className="meta-date">{item.date}</span>
-                <span className="meta-category">
-                  <FaFolder className="meta-icon" />
-                  {item.category}
-                </span>
-                {item.verify && (
-                  <a
-                    href={item.verify}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="meta-date"
-                    style={{ textDecoration: "none", color: "inherit" }}
-                  >
-                    <FaExternalLinkAlt className="meta-icon" />
-                    Verify
-                  </a>
-                )}
+          <div className="achievement-badge-card" key={index}>
+            
+            {/* Header with category and logo side-by-side */}
+            <div className="badge-card-header">
+              <span className="badge-card-category">
+                <FaFolder className="meta-icon" /> {item.category}
+              </span>
+              <div
+                className="badge-card-img-wrapper"
+                style={{ backgroundColor: item.logoBg }}
+              >
+                <img src={item.image} alt={item.org} />
               </div>
             </div>
 
-            <div
-              className="achievement-img-wrapper"
-              style={{ backgroundColor: item.logoBg }}
-            >
-              <img src={item.image} alt={item.org} />
+            {/* Content below */}
+            <div className="badge-card-body">
+              <h3>{item.title}</h3>
+              <p className="badge-card-org">{item.org}</p>
+            </div>
+
+            {/* Footer with date and verification link */}
+            <div className="badge-card-footer">
+              <span className="badge-card-date">{item.date}</span>
+              {item.verify && (
+                <a
+                  href={item.verify}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="badge-card-verify"
+                >
+                  <FaExternalLinkAlt /> Verify
+                </a>
+              )}
             </div>
 
           </div>

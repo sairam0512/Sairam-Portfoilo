@@ -14,6 +14,11 @@ import "./App.css";
 export default function App() {
   return (
     <>
+      {/* Background ambient glowing blobs */}
+      <div className="glow-blob blob-1"></div>
+      <div className="glow-blob blob-2"></div>
+      <div className="glow-blob blob-3"></div>
+
       <Navbar />
       <Hero />
       <Education />

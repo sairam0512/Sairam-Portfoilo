@@ -1,35 +1,36 @@
 /* ============================================================
-   DESIGN SYSTEM — V Prashanth Portfolio
-   IDE-Inspired: VS Code Dark+ meets refined developer aesthetic
+   DESIGN SYSTEM — P.Sairam Portfolio
+   Quantum Cyber-Violet / Glassmorphic Tech Aesthetic
    ============================================================ */
 
 :root {
-  /* --- Core Palette (VS Code Dark+ inspired) --- */
-  --bg-primary:    #0b0e14;   /* deepest background */
-  --bg-secondary:  #0f1218;   /* section backgrounds */
-  --bg-card:       #161b24;   /* card surfaces */
-  --bg-card-hover: #1c2233;
+  /* --- Core Palette (Cosmic Obsidian & Deep space) --- */
+  --bg-primary:     #05050a;   /* darkest void background */
+  --bg-secondary:   #090912;   /* section background */
+  --bg-card:        rgba(15, 12, 30, 0.4);   /* glassmorphic card backdrop */
+  --bg-card-hover:  rgba(25, 20, 50, 0.55);
 
   /* --- Text --- */
-  --text-primary:   #e1e4e8;
-  --text-secondary: #8b949e;
-  --text-muted:     #484f58;
+  --text-primary:   #f3f4f6;   /* near white */
+  --text-secondary: #a1a1aa;   /* zinc gray */
+  --text-muted:     #52525b;   /* dark gray */
 
-  /* --- Accent (controlled, not glowing everywhere) --- */
-  --accent:        #58a6ff;   /* GitHub-style blue */
-  --accent-green:  #3fb950;   /* success / active */
-  --accent-cyan:   #79c0ff;   /* light accent */
-  --accent-orange: #e3b341;   /* warnings / dates */
-  --accent-pink:   #f778ba;   /* subtle highlight */
+  /* --- Accents & Gradients --- */
+  --accent-start:   #8b5cf6;   /* violet-500 */
+  --accent-end:     #06b6d4;   /* cyan-500 */
+  --accent-green:   #10b981;   /* emerald-500 */
+  --accent-cyan:    #06b6d4;
+  --accent-orange:  #f59e0b;   /* amber-500 */
+  --accent-violet:  #a78bfa;   /* violet-400 */
 
-  /* --- Borders --- */
-  --border:        #21262d;
-  --border-active: #388bfd;
+  /* --- Borders (Fine Glass Borders) --- */
+  --border:         rgba(255, 255, 255, 0.05);
+  --border-active:  rgba(255, 255, 255, 0.15);
 
-  /* --- Fonts --- */
-  --font-heading: 'Syne', sans-serif;
-  --font-body:    'Inter', sans-serif;
-  --font-mono:    'JetBrains Mono', monospace;
+  /* --- Fonts (Modern Cyber Tech Typography) --- */
+  --font-heading:   'Outfit', sans-serif;
+  --font-body:      'Outfit', sans-serif;
+  --font-mono:      'Space Grotesk', sans-serif;
 
   font-size: 16px;
   line-height: 1.6;
@@ -57,27 +58,26 @@ body {
 }
 
 /* ============================================================
-   DOT GRID BACKGROUND — signals "developer environment"
+   GRID MATRIX BACKGROUND — modern geometric mesh
    ============================================================ */
 body::before {
   content: '';
   position: fixed;
   inset: 0;
-  background-image: radial-gradient(circle, #ffffff09 1px, transparent 1px);
-  background-size: 28px 28px;
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.01) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.01) 1px, transparent 1px);
+  background-size: 50px 50px;
   pointer-events: none;
   z-index: 0;
 }
 
-/* Subtle blue ambient glow — top left only, very restrained */
+/* Radiant Radial Overlay */
 body::after {
   content: '';
   position: fixed;
-  top: -200px;
-  left: -200px;
-  width: 700px;
-  height: 700px;
-  background: radial-gradient(circle, rgba(56, 139, 253, 0.06), transparent 70%);
+  inset: 0;
+  background: radial-gradient(circle at 50% 50%, transparent 40%, rgba(5, 5, 10, 0.8) 100%);
   pointer-events: none;
   z-index: 0;
 }
@@ -89,13 +89,18 @@ body::after {
 }
 
 /* ============================================================ SCROLLBAR */
-::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: var(--bg-primary); }
-::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+::-webkit-scrollbar-thumb { 
+  background: linear-gradient(180deg, var(--accent-start), var(--accent-end)); 
+  border-radius: 4px; 
+}
+::-webkit-scrollbar-thumb:hover { 
+  background: linear-gradient(180deg, var(--accent-end), var(--accent-start)); 
+}
 
 /* ============================================================ SELECTION */
 ::selection {
-  background: rgba(56, 139, 253, 0.25);
+  background: rgba(139, 92, 246, 0.3);
   color: var(--text-primary);
 }
