@@ -516,7 +516,7 @@ git push origin main
 **2. Import on Vercel**
 
 - Go to [vercel.com](https://vercel.com) → **New Project**
-- Import `iprashanthvanam/prashanth-portfolio`
+- Import `sairam0512/Sairam-portfolio`
 - Framework: **Vite** (auto-detected)
 - Build Command: `npm run build`
 - Output Directory: `dist`
