@@ -397,7 +397,7 @@ Sairam-portfolio/
 
 ```bash
 git clone https://github.com/sairam0512/Sairam-Portfolio.git
-cd prashanth-portfolio
+cd Sairam-Portfolio
 ```
 
 **2. Install dependencies**
