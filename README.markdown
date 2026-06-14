@@ -30,7 +30,7 @@
 <!-- HERO SCREENSHOT -->
 <img src="images/hero section.png" alt="Portfolio Hero Section" width="900"/>
 
-> **Vanam Prashanth Portfolio** — IDE-inspired dark aesthetic with animated terminal, scroll-reveal sections, and a data-driven architecture
+> **Sairamreddy-Portfolio** — IDE-inspired dark aesthetic with animated terminal, scroll-reveal sections, and a data-driven architecture
 
 </div>
 
